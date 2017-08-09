@@ -20,7 +20,7 @@ This program sends out gift card codes to survey respondents
 This program sends out gift card codes to survey respondents
 1. Downloads new survey responses from  Qualtrics API 
 2. Writes the new contact info into SQLite database
-3. Request a gift card code from Amazon Incentives API for each new respondent and adds it to data base (This code is for the sandbox environment, for productoin change host and serviceTarget)
+3. Requests a gift card code from Amazon Incentives API for each new respondent and adds it to data base (This code is for the sandbox environment, for productoin change host and serviceTarget)
 4. Sends the gift card codes to new repsondents via EZtexting.com API 
 5. repeat 
 
